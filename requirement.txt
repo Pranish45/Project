@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+langchain
+sentence-transformers
+faiss-cpu
+requests
+pydantic
+python-multipart
+aiofiles
