@@ -50,7 +50,7 @@ logger = logging.getLogger(__name__)
 # -----------------------------
 class Config:
     # API Configuration
-    PERPLEXITY_API_KEY = "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"
+    PERPLEXITY_API_KEY = "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"
     PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
     
     # Application Settings
