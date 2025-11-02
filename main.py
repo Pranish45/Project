@@ -27,9 +27,9 @@ import time
 from contextlib import asynccontextmanager
 
 # AI & ML Dependencies
-from langchain.document_loaders import TextLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import TextLoader
+from langchain.text_splitters import RecursiveCharacterTextSplitter
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 import requests
 from sentence_transformers import SentenceTransformer
